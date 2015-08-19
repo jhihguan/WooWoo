@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0E4CAB1ABB2BE600535E37 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E4CAA1ABB2BE600535E37 /* MapViewController.m */; };
+		6A0E4CAD1ABB2E4500535E37 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0E4CAC1ABB2E4500535E37 /* MapKit.framework */; };
+		6A0E4CAE1ABB2E5200535E37 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A77A3181ABA792200BD4834 /* CoreLocation.framework */; };
+		6A0E4CB11ABB375300535E37 /* MapAnnotationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E4CB01ABB375300535E37 /* MapAnnotationModel.m */; };
+		6A285C441AC5C1900074C103 /* MapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A285C431AC5C1900074C103 /* MapViewModel.m */; };
+		6A71762A1AC682D500D391A7 /* WoooInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7176291AC682D500D391A7 /* WoooInfoTableViewCell.m */; };
+		6A71762E1AC692D200D391A7 /* LocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A71762D1AC692D200D391A7 /* LocationUtil.m */; };
+		6A7176341AC6E54100D391A7 /* WoooIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7176331AC6E54100D391A7 /* WoooIntroView.m */; };
+		6A77A2F51ABA751500BD4834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A77A2F41ABA751500BD4834 /* main.m */; };
+		6A77A2F81ABA751500BD4834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A77A2F71ABA751500BD4834 /* AppDelegate.m */; };
+		6A77A2FB1ABA751500BD4834 /* WoooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A77A2FA1ABA751500BD4834 /* WoooViewController.m */; };
+		6A77A2FE1ABA751500BD4834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A77A2FC1ABA751500BD4834 /* Main.storyboard */; };
+		6A77A3001ABA751500BD4834 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A77A2FF1ABA751500BD4834 /* Images.xcassets */; };
+		6A77A3031ABA751500BD4834 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A77A3011ABA751500BD4834 /* LaunchScreen.xib */; };
+		6A77A30F1ABA751500BD4834 /* WoooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A77A30E1ABA751500BD4834 /* WoooTests.m */; };
+		6A7A5B3E1B0C2779006271C9 /* WoooMapIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A5B3D1B0C2779006271C9 /* WoooMapIntroView.m */; };
+		6AFD932C1AC50D810074E517 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD932B1AC50D810074E517 /* MainViewController.m */; };
+		6AFD93691AC52E510074E517 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD93681AC52E510074E517 /* Constant.m */; };
+		6AFD936C1AC52F500074E517 /* WoooViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD936B1AC52F500074E517 /* WoooViewModel.m */; };
+		6AFD936F1AC530810074E517 /* WoooModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD936E1AC530810074E517 /* WoooModel.m */; };
+		C03776777C1D3CF70C05ED0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 782FC133B949E80AA9FA62C1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A77A3091ABA751500BD4834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A77A2E71ABA751500BD4834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A77A2EE1ABA751500BD4834;
+			remoteInfo = Wooo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0732F38EC90CE0170C6C796C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6A0E4CA91ABB2BE600535E37 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6A0E4CAA1ABB2BE600535E37 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6A0E4CAC1ABB2E4500535E37 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6A0E4CAF1ABB375300535E37 /* MapAnnotationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapAnnotationModel.h; path = Data/MapAnnotationModel.h; sourceTree = "<group>"; };
+		6A0E4CB01ABB375300535E37 /* MapAnnotationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapAnnotationModel.m; path = Data/MapAnnotationModel.m; sourceTree = "<group>"; };
+		6A285C421AC5C1900074C103 /* MapViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewModel.h; path = ViewModel/MapViewModel.h; sourceTree = "<group>"; };
+		6A285C431AC5C1900074C103 /* MapViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewModel.m; path = ViewModel/MapViewModel.m; sourceTree = "<group>"; };
+		6A7176281AC682D500D391A7 /* WoooInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WoooInfoTableViewCell.h; path = View/WoooInfoTableViewCell.h; sourceTree = "<group>"; };
+		6A7176291AC682D500D391A7 /* WoooInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WoooInfoTableViewCell.m; path = View/WoooInfoTableViewCell.m; sourceTree = "<group>"; };
+		6A71762C1AC692D200D391A7 /* LocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationUtil.h; path = Util/LocationUtil.h; sourceTree = "<group>"; };
+		6A71762D1AC692D200D391A7 /* LocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationUtil.m; path = Util/LocationUtil.m; sourceTree = "<group>"; };
+		6A7176321AC6E54100D391A7 /* WoooIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WoooIntroView.h; path = View/WoooIntroView.h; sourceTree = "<group>"; };
+		6A7176331AC6E54100D391A7 /* WoooIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WoooIntroView.m; path = View/WoooIntroView.m; sourceTree = "<group>"; };
+		6A72E76D1ABD6649003DCE46 /* Library1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Library1.gpx; sourceTree = "<group>"; };
+		6A72E76E1ABD66DF003DCE46 /* River.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = River.gpx; sourceTree = "<group>"; };
+		6A77A2EF1ABA751500BD4834 /* Wooo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wooo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77A2F31ABA751500BD4834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77A2F41ABA751500BD4834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A77A2F61ABA751500BD4834 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A77A2F71ABA751500BD4834 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A77A2F91ABA751500BD4834 /* WoooViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WoooViewController.h; sourceTree = "<group>"; };
+		6A77A2FA1ABA751500BD4834 /* WoooViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoooViewController.m; sourceTree = "<group>"; };
+		6A77A2FD1ABA751500BD4834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A77A2FF1ABA751500BD4834 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A77A3021ABA751500BD4834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6A77A3081ABA751500BD4834 /* WoooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77A30D1ABA751500BD4834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77A30E1ABA751500BD4834 /* WoooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoooTests.m; sourceTree = "<group>"; };
+		6A77A3181ABA792200BD4834 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A77A31A1ABA7E0600BD4834 /* Banchiao.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Banchiao.gpx; sourceTree = "<group>"; };
+		6A7A5B3C1B0C2779006271C9 /* WoooMapIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WoooMapIntroView.h; path = View/WoooMapIntroView.h; sourceTree = "<group>"; };
+		6A7A5B3D1B0C2779006271C9 /* WoooMapIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WoooMapIntroView.m; path = View/WoooMapIntroView.m; sourceTree = "<group>"; };
+		6AFD932A1AC50D810074E517 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6AFD932B1AC50D810074E517 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6AFD93671AC52E510074E517 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		6AFD93681AC52E510074E517 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		6AFD936A1AC52F500074E517 /* WoooViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WoooViewModel.h; path = ViewModel/WoooViewModel.h; sourceTree = "<group>"; };
+		6AFD936B1AC52F500074E517 /* WoooViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WoooViewModel.m; path = ViewModel/WoooViewModel.m; sourceTree = "<group>"; };
+		6AFD936D1AC530810074E517 /* WoooModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WoooModel.h; path = Data/WoooModel.h; sourceTree = "<group>"; };
+		6AFD936E1AC530810074E517 /* WoooModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WoooModel.m; path = Data/WoooModel.m; sourceTree = "<group>"; };
+		782FC133B949E80AA9FA62C1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E3A9FA387849AA834B2E37 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A77A2EC1ABA751500BD4834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0E4CAE1ABB2E5200535E37 /* CoreLocation.framework in Frameworks */,
+				6A0E4CAD1ABB2E4500535E37 /* MapKit.framework in Frameworks */,
+				C03776777C1D3CF70C05ED0C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77A3051ABA751500BD4834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7176271AC6829D00D391A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A7176281AC682D500D391A7 /* WoooInfoTableViewCell.h */,
+				6A7176291AC682D500D391A7 /* WoooInfoTableViewCell.m */,
+				6A7176321AC6E54100D391A7 /* WoooIntroView.h */,
+				6A7176331AC6E54100D391A7 /* WoooIntroView.m */,
+				6A7A5B3C1B0C2779006271C9 /* WoooMapIntroView.h */,
+				6A7A5B3D1B0C2779006271C9 /* WoooMapIntroView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6A71762B1AC692BD00D391A7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6A71762C1AC692D200D391A7 /* LocationUtil.h */,
+				6A71762D1AC692D200D391A7 /* LocationUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		6A77A2E61ABA751500BD4834 = {
+			isa = PBXGroup;
+			children = (
+				6A77A2F11ABA751500BD4834 /* Wooo */,
+				6A77A30B1ABA751500BD4834 /* WoooTests */,
+				6A77A2F01ABA751500BD4834 /* Products */,
+				A15DF113D20E56A8EDB86B39 /* Pods */,
+				7F2F7189FFEBB8E47404E49E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A77A2F01ABA751500BD4834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A77A2EF1ABA751500BD4834 /* Wooo.app */,
+				6A77A3081ABA751500BD4834 /* WoooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A77A2F11ABA751500BD4834 /* Wooo */ = {
+			isa = PBXGroup;
+			children = (
+				6A71762B1AC692BD00D391A7 /* Util */,
+				6A7176271AC6829D00D391A7 /* View */,
+				6AFD93651AC5265C0074E517 /* Model */,
+				6AFD93661AC526600074E517 /* ViewModel */,
+				6AFD93291AC50A3D0074E517 /* ViewController */,
+				6A77A2F61ABA751500BD4834 /* AppDelegate.h */,
+				6A77A2F71ABA751500BD4834 /* AppDelegate.m */,
+				6A77A31A1ABA7E0600BD4834 /* Banchiao.gpx */,
+				6A77A2FC1ABA751500BD4834 /* Main.storyboard */,
+				6A77A2FF1ABA751500BD4834 /* Images.xcassets */,
+				6A77A3011ABA751500BD4834 /* LaunchScreen.xib */,
+				6A77A2F21ABA751500BD4834 /* Supporting Files */,
+				6A72E76D1ABD6649003DCE46 /* Library1.gpx */,
+				6A72E76E1ABD66DF003DCE46 /* River.gpx */,
+				6AFD93671AC52E510074E517 /* Constant.h */,
+				6AFD93681AC52E510074E517 /* Constant.m */,
+			);
+			path = Wooo;
+			sourceTree = "<group>";
+		};
+		6A77A2F21ABA751500BD4834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A77A2F31ABA751500BD4834 /* Info.plist */,
+				6A77A2F41ABA751500BD4834 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A77A30B1ABA751500BD4834 /* WoooTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A77A30E1ABA751500BD4834 /* WoooTests.m */,
+				6A77A30C1ABA751500BD4834 /* Supporting Files */,
+			);
+			path = WoooTests;
+			sourceTree = "<group>";
+		};
+		6A77A30C1ABA751500BD4834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A77A30D1ABA751500BD4834 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AFD93291AC50A3D0074E517 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A77A2F91ABA751500BD4834 /* WoooViewController.h */,
+				6A77A2FA1ABA751500BD4834 /* WoooViewController.m */,
+				6A0E4CA91ABB2BE600535E37 /* MapViewController.h */,
+				6A0E4CAA1ABB2BE600535E37 /* MapViewController.m */,
+				6AFD932A1AC50D810074E517 /* MainViewController.h */,
+				6AFD932B1AC50D810074E517 /* MainViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6AFD93651AC5265C0074E517 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E4CAF1ABB375300535E37 /* MapAnnotationModel.h */,
+				6A0E4CB01ABB375300535E37 /* MapAnnotationModel.m */,
+				6AFD936D1AC530810074E517 /* WoooModel.h */,
+				6AFD936E1AC530810074E517 /* WoooModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6AFD93661AC526600074E517 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AFD936A1AC52F500074E517 /* WoooViewModel.h */,
+				6AFD936B1AC52F500074E517 /* WoooViewModel.m */,
+				6A285C421AC5C1900074C103 /* MapViewModel.h */,
+				6A285C431AC5C1900074C103 /* MapViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		7F2F7189FFEBB8E47404E49E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A77A3181ABA792200BD4834 /* CoreLocation.framework */,
+				6A0E4CAC1ABB2E4500535E37 /* MapKit.framework */,
+				782FC133B949E80AA9FA62C1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A15DF113D20E56A8EDB86B39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3A9FA387849AA834B2E37 /* Pods.debug.xcconfig */,
+				0732F38EC90CE0170C6C796C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A77A2EE1ABA751500BD4834 /* Wooo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77A3121ABA751500BD4834 /* Build configuration list for PBXNativeTarget "Wooo" */;
+			buildPhases = (
+				8FE48CAEB689C662C2A07D9D /* Check Pods Manifest.lock */,
+				6A77A2EB1ABA751500BD4834 /* Sources */,
+				6A77A2EC1ABA751500BD4834 /* Frameworks */,
+				6A77A2ED1ABA751500BD4834 /* Resources */,
+				DD844907F14E2D81510CBA5A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wooo;
+			productName = Wooo;
+			productReference = 6A77A2EF1ABA751500BD4834 /* Wooo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A77A3071ABA751500BD4834 /* WoooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77A3151ABA751500BD4834 /* Build configuration list for PBXNativeTarget "WoooTests" */;
+			buildPhases = (
+				6A77A3041ABA751500BD4834 /* Sources */,
+				6A77A3051ABA751500BD4834 /* Frameworks */,
+				6A77A3061ABA751500BD4834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A77A30A1ABA751500BD4834 /* PBXTargetDependency */,
+			);
+			name = WoooTests;
+			productName = WoooTests;
+			productReference = 6A77A3081ABA751500BD4834 /* WoooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A77A2E71ABA751500BD4834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Jhihguan;
+				TargetAttributes = {
+					6A77A2EE1ABA751500BD4834 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6A77A3071ABA751500BD4834 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6A77A2EE1ABA751500BD4834;
+					};
+				};
+			};
+			buildConfigurationList = 6A77A2EA1ABA751500BD4834 /* Build configuration list for PBXProject "Wooo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A77A2E61ABA751500BD4834;
+			productRefGroup = 6A77A2F01ABA751500BD4834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A77A2EE1ABA751500BD4834 /* Wooo */,
+				6A77A3071ABA751500BD4834 /* WoooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A77A2ED1ABA751500BD4834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77A2FE1ABA751500BD4834 /* Main.storyboard in Resources */,
+				6A77A3031ABA751500BD4834 /* LaunchScreen.xib in Resources */,
+				6A77A3001ABA751500BD4834 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77A3061ABA751500BD4834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FE48CAEB689C662C2A07D9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD844907F14E2D81510CBA5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A77A2EB1ABA751500BD4834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A71762E1AC692D200D391A7 /* LocationUtil.m in Sources */,
+				6A77A2FB1ABA751500BD4834 /* WoooViewController.m in Sources */,
+				6A77A2F81ABA751500BD4834 /* AppDelegate.m in Sources */,
+				6A71762A1AC682D500D391A7 /* WoooInfoTableViewCell.m in Sources */,
+				6AFD936F1AC530810074E517 /* WoooModel.m in Sources */,
+				6A285C441AC5C1900074C103 /* MapViewModel.m in Sources */,
+				6AFD936C1AC52F500074E517 /* WoooViewModel.m in Sources */,
+				6A77A2F51ABA751500BD4834 /* main.m in Sources */,
+				6AFD932C1AC50D810074E517 /* MainViewController.m in Sources */,
+				6A0E4CAB1ABB2BE600535E37 /* MapViewController.m in Sources */,
+				6A0E4CB11ABB375300535E37 /* MapAnnotationModel.m in Sources */,
+				6AFD93691AC52E510074E517 /* Constant.m in Sources */,
+				6A7A5B3E1B0C2779006271C9 /* WoooMapIntroView.m in Sources */,
+				6A7176341AC6E54100D391A7 /* WoooIntroView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77A3041ABA751500BD4834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77A30F1ABA751500BD4834 /* WoooTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A77A30A1ABA751500BD4834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A77A2EE1ABA751500BD4834 /* Wooo */;
+			targetProxy = 6A77A3091ABA751500BD4834 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A77A2FC1ABA751500BD4834 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A77A2FD1ABA751500BD4834 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A77A3011ABA751500BD4834 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A77A3021ABA751500BD4834 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A77A3101ABA751500BD4834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A77A3111ABA751500BD4834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A77A3131ABA751500BD4834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E3A9FA387849AA834B2E37 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = Wooo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "91a9e0b8-cd7c-4f65-b7fc-1d79524ce976";
+			};
+			name = Debug;
+		};
+		6A77A3141ABA751500BD4834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0732F38EC90CE0170C6C796C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Wooo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6A77A3161ABA751500BD4834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WoooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wooo.app/Wooo";
+			};
+			name = Debug;
+		};
+		6A77A3171ABA751500BD4834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WoooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wooo.app/Wooo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A77A2EA1ABA751500BD4834 /* Build configuration list for PBXProject "Wooo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77A3101ABA751500BD4834 /* Debug */,
+				6A77A3111ABA751500BD4834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77A3121ABA751500BD4834 /* Build configuration list for PBXNativeTarget "Wooo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77A3131ABA751500BD4834 /* Debug */,
+				6A77A3141ABA751500BD4834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77A3151ABA751500BD4834 /* Build configuration list for PBXNativeTarget "WoooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77A3161ABA751500BD4834 /* Debug */,
+				6A77A3171ABA751500BD4834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A77A2E71ABA751500BD4834 /* Project object */;
+}

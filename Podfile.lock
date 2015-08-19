@@ -1,0 +1,24 @@
+PODS:
+  - ASValueTrackingSlider (0.10.1)
+  - Bolts/Tasks (1.2.0)
+  - FlurrySDK (6.4.0):
+    - FlurrySDK/FlurrySDK (= 6.4.0)
+  - FlurrySDK/FlurrySDK (6.4.0)
+  - KVOController (1.0.3)
+  - Parse (1.8.0):
+    - Bolts/Tasks (>= 1.2.0)
+
+DEPENDENCIES:
+  - ASValueTrackingSlider
+  - FlurrySDK (= 6.4)
+  - KVOController
+  - Parse
+
+SPEC CHECKSUMS:
+  ASValueTrackingSlider: 00fe601d9b5b2efeac515c1673afbf452f8e78ba
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  FlurrySDK: 626112353069318dfdb4c1d5528a486e3298ecd1
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  Parse: 6ea05adb378fbfd6f8726ab67ef74330d96fc903
+
+COCOAPODS: 0.38.2
